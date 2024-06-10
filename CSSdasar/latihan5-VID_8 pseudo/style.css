@@ -1,0 +1,99 @@
+body {
+  background-color: #b0ebb4;
+  background-image: url(background/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  /* cara membuat foto dibawah tanpa harus menggunakan di br di html menggunakan */
+}
+
+h1 {
+  /* font-family mengatur jenis font yg digunakan, font-size mengatur ukuran size, font-weight mengatur ketebalan font, font-variant mengubah font menjadi small caps, font-style mengubah font menjadi bercetak miring dan line-height mengatur spasi antar garis */
+  color: #4287f5;
+  font-size: 30px;
+  /* font-weight atribut = lighter, normal, 100-900, bold, bolder */
+  font-weight: 700;
+  /* font-variant atribut = normal & small-caps */
+  font-variant: normal;
+}
+
+h2 {
+  /* color atribut = nama warna, hexadecimal, rgb */
+  color: rgb(158, 20, 200);
+  /* font-size artibut = px, % dan em */
+  font-size: 30px;
+  /* font-style atribut = normal, italic dan oblique */
+  font-style: italic;
+}
+
+/* belajar selector berbeda namun atribut dan valuenya sama */
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#p1 {
+  font-family: "Times New Roman", Times, serif;
+  /* line-height artibut = normal, px, em berguna untuk jarak antar baris*/
+  line-height: normal;
+  text-align: justify;
+  text-indent: 30px;
+  /* atribut = none, lowercase, uppercase dan capitalize */
+  text-transform: capitalize;
+  /* atribut = normal dan px | berguna untuk spasi antar tulisan */
+  word-spacing: 10px;
+  color: coral;
+}
+
+.p2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* line-height artibut = normal, px, em berguna untuk jarak antar baris*/
+  line-height: normal;
+  text-align: justify;
+  text-indent: 30px;
+  /* atribut = none, lowercase, uppercase dan capitalize */
+  text-transform: capitalize;
+  /* atribut = normal dan px | berguna untuk spasi antar tulisan */
+  word-spacing: 10px;
+  color: darkred;
+}
+
+ul li a {
+  color: red;
+}
+
+ol li a {
+  color: yellow;
+}
+
+p.cetak-tebal {
+  font-size: 20px;
+}
+
+a {
+  color: hotpink;
+}
+
+.hello:link {
+  font-weight: bold;
+}
+
+.hello:hover {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.hello:active {
+  font-style: oblique;
+}
+
+/* digunakan jika kita sudah pernah klik link lebih dari 1x */
+.hello:visited {
+  color: black;
+}
+/* digunakan untuk link diawal, diakhir dan berkelipatan  */
+li:nth-child(2n) a {
+  color: blue;
+}
