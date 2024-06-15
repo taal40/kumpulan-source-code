@@ -1,0 +1,35 @@
+.navigasi {
+    background-color: #006769;
+}
+
+.main {
+    background-color: pink;
+    width: 1000px;
+}
+
+.main h3 {
+    background-color: #6DC5D1;
+}
+
+.main span {
+    background-color: aqua;
+}
+
+.navigasi a {
+    background-color: aqua;
+}
+
+/* menghilangkan image dengan cara display: none */
+img {
+    width: 200px;
+    height: 150px;
+}
+
+h1 {
+    color: #8E3E63;
+}
+
+h2,
+h3 {
+    color: #DC5F00;
+}
